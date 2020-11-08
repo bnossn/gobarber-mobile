@@ -32,8 +32,12 @@
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
       "react/jsx-props-no-spreading": "off",
+      "react/require-default-props": "off",
       "no-unused-expressions": "off",
       "@typescript-eslint/ban-types": "warn",
+      "react/jsx-one-expression-per-line": "off",
+      "import/no-duplicates": "off",
+      "camelcase": "off",
       "react/prop-types": ["error",
         {
           "ignore": ["children"]

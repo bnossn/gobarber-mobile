@@ -1,0 +1,111 @@
+yarn android
+yarn run v1.22.5
+$ react-native run-android
+info Running jetifier to migrate libraries to AndroidX. You can disable it using "--no-jetifier" flag.
+Jetifier found 1121 file(s) to forward-jetify. Using 12 workers...
+info JS server already running.
+info Launching emulator...
+info Successfully launched emulator.
+info Installing the app...
+
+> Task :react-native-community_async-storage:compileDebugJavaWithJavac
+
+> Task :react-native-community_datetimepicker:compileDebugJavaWithJavac
+
+> Task :react-native-gesture-handler:compileDebugJavaWithJavac
+
+> Task :react-native-image-picker:compileDebugJavaWithJavac
+
+> Task :react-native-reanimated:compileDebugJavaWithJavac
+
+> Task :react-native-screens:compileDebugJavaWithJavac
+
+> Task :app:compileDebugJavaWithJavac
+
+> Task :app:mergeExtDexDebug FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.2/userguide/command_line_interface.html#sec:command_line_warnings
+157 actionable tasks: 156 executed, 1 up-to-date
+Note: /media/NTFS_Drive/Documents/Projetos/React/50_GoStack/Nível 03 (Front end Web e Mobile)/40_GoBarber_Iniciando FrontEnd Mobile/appgobarber/node_modules/@react-native-community/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /media/NTFS_Drive/Documents/Projetos/React/50_GoStack/Nível 03 (Front end Web e Mobile)/40_GoBarber_Iniciando FrontEnd Mobile/appgobarber/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /media/NTFS_Drive/Documents/Projetos/React/50_GoStack/Nível 03 (Front end Web e Mobile)/40_GoBarber_Iniciando FrontEnd Mobile/appgobarber/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /media/NTFS_Drive/Documents/Projetos/React/50_GoStack/Nível 03 (Front end Web e Mobile)/40_GoBarber_Iniciando FrontEnd Mobile/appgobarber/android/app/src/debug/java/com/appgobarber/ReactNativeFlipper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+java.nio.file.NoSuchFileException: /media/NTFS_Drive/Documents/Projetos/React/50_GoStack/Nível 03 (Front end Web e Mobile)/40_GoBarber_Iniciando FrontEnd Mobile/appgobarber/android/app/build/intermediates/external_file_lib_dex_archives/debug/out
+        at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+        at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+        at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+        at sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:427)
+        at java.nio.file.Files.newDirectoryStream(Files.java:457)
+        at java.nio.file.Files.list(Files.java:3451)
+        at com.android.build.gradle.internal.tasks.DexMergingParams.getAllDexFiles(DexMergingTask.kt:502)
+        at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:423)
+        at com.android.build.gradle.internal.tasks.Workers$ActionFacade.run(Workers.kt:335)
+        at org.gradle.workers.internal.AdapterWorkAction.execute(AdapterWorkAction.java:57)
+        at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+        at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+        at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+        at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:98)
+        at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+        at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+        at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+        at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+        at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+        at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+        at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$2(DefaultWorkerExecutor.java:198)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:215)
+        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
+        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:131)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+        at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+        at java.lang.Thread.run(Thread.java:748)
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:mergeExtDexDebug'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
+   > java.nio.file.NoSuchFileException: /media/NTFS_Drive/Documents/Projetos/React/50_GoStack/Nível 03 (Front end Web e Mobile)/40_GoBarber_Iniciando FrontEnd Mobile/appgobarber/android/app/build/intermediates/external_file_lib_dex_archives/debug/out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s
+
+error Failed to install the app. Make sure you have the Android development environment set up: https://reactnative.dev/docs/environment-setup. Run CLI with --verbose flag for more details.
+Error: Command failed: ./gradlew app:installDebug -PreactNativeDevServerPort=8081
+Note: /media/NTFS_Drive/Documents/Projetos/React/50_GoStack/Nível 03 (Front end Web e Mobile)/40_GoBarber_Iniciando FrontEnd Mobile/appgobarber/node_modules/@react-native-community/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java uses or overrides a deprecated API.
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
